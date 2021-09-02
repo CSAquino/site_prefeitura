@@ -53,43 +53,30 @@ ul {
 /* Estrutura Pesquisa */
 #barra-pesquisa {
     margin: 40px auto;
+    padding: 10px 0;
     background: #013471;
 }
 
 #area-pesquisa {
     width: 1000px;
-    height: 50px;
-    margin: auto;
-}
-
-#area-pesquisa ul {
+    margin: 0 auto;
     text-align: center;
 }
 
-#area-pesquisa ul li {
+#area-pesquisa div {
     display: inline-block;
 }
 
 #pesquisa {
-    margin: 10px auto;
-    margin-right: 150px;
+    width: 250px;
+    text-align: start;
 }
 
-#pesquisa img {
-    width: 35px;
-    height: 35px;
-    padding: 7px;
+#logo-gov {
+    width: 250px;
 }
 
-#logo-gov img {
-    width: auto;
-    height: 35px;
-    padding: 7px;
-}
-
-#redes img {
-    width: auto;
-    height: 35px;
-    padding: 7px;
-    padding-left: 50px;
+#redes {
+    width: 250px;
+    text-align: end;
 }
