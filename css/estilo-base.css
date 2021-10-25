@@ -1,0 +1,171 @@
+/*================ Estutura do Site ================*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: #F9FAFB url(/imagens/background.png);
+    font-size: 15px;
+    color: #414042;
+}
+
+h1, h2 {
+    font-size: 25px;
+    color: rgba(65, 64, 66, 0.6);
+}
+
+a {
+    text-decoration: none;
+}
+
+/*================ TOPO SERVIDOR ================*/
+#topo-servidor {
+    width: auto;
+    height: 35px;
+    background: #EB3235;
+}
+
+#topo-servidor ul {
+    display: block;
+    text-align: center;
+}
+
+#topo-servidor ul li {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+#topo-servidor ul li a {
+    font-size: 11px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 10px 20px;
+}
+
+#topo-servidor ul li a:hover {
+    text-decoration: underline;
+    background-color: #b61f22;
+    color: #fff;
+    border-bottom: #fff;
+}
+
+/*================ BARRA SUPERIOR ================*/
+#barra-pesquisa {
+    width: 100%;
+    height: 50px;
+    background-color: #013471;
+}
+
+.pesquisa {
+    width: 1000px;
+    margin: auto;  
+    display: block;
+    text-align: center;
+}
+
+.botao-topo {
+    display: inline-block;
+}
+
+.botao-pesquisa {
+    margin-right: 250px;
+    text-align: start;
+}
+
+.botao-pesquisa img {
+    width: 25px;
+    margin-bottom: 5px;
+}
+
+.botao-brasao {
+    margin: 0 125px;
+    text-align: center;
+}
+
+.botao-brasao img {
+    width: 70px;
+    margin-top: 5px;
+}
+
+.botao-redes {
+    margin-left: 235px;
+    text-align: end;
+}
+
+.botao-redes img {
+    width: 25px;
+    padding-left: 5px;
+    margin-bottom: 5px;
+}
+
+/*================ BANNER TOPO ================*/
+#banner-topo {
+    width: 100%;
+    height: 500px;
+    background-image: linear-gradient(180deg, rgba(42, 7, 77, 0.26), rgba(65, 64, 66, 0.5)), url(/imagens/img_kite.JPG);
+    background-position: 0px 0px, 50% 100%;
+    background-size: auto, cover;
+    background-repeat: repeat, repeat;
+    background-attachment: scroll, fixed;
+    margin-top: -17px;
+}
+
+#banner-topo h1 {
+    text-indent: -3000px;
+}
+
+#banner-topo img {
+    display: block;
+    margin: auto;
+}
+
+/*================ ACESSO RAPIDO ================*/
+#acesso-rapido {
+    width: 980px;
+    background: #fff;
+    display: block;
+    margin: auto;
+    margin-top: -230px;
+    padding: 35px 35px 35px 35px;
+    border-radius: 10px;
+    position: relative;
+    z-index: 10;
+    box-shadow: 0 0 5px 2px rgb(65 64 66 / 30%);
+}
+
+#area-acesso {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#area-acesso a {
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    list-style: none;
+    color: #414042;
+    border-bottom: 0.5px solid #414042;
+}
+
+#area-acesso a:hover {
+    background-color: rgba(129, 129, 129, 0.6);
+    border-radius: 10px;
+}
+
+.botao-acesso {
+    width: 130px;
+    height: 115px;
+    margin: 10px;
+    padding: 5px;
+    text-align: center;
+    display: inline-block;
+}
+
+.botao-acesso img {
+    margin-bottom: 15px;
+}
+
+/*================ AREA PRINCIPAL ================*/

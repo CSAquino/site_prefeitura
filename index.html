@@ -1,75 +1,139 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <title>Navegação Vertical</title>
         <meta charset="utf-8">
-
-        <!-- Estilos -->
-        <link rel="stylesheet" type="text/css" href="estilo-base.css">
+        <link rel="stylesheet" type="text/css" href="/css/normalize.css">
+        <link rel="stylesheet" type="text/css" href="/css/estilo-base.css">
+        <title>Prefeitura Municipal de São João da Barra</title>
+        
     </head>
 
-    <body class="home">
-        <!-- Topo -->
-        <h1 class="sjb">Prefeitura municipal de São João da Barra</h1>
-        <div id="topo">
-            <ul id="navegacao">
-                <li>
-                    <a href="privado.html">PRIVADO</a>
-                </li>
-                <li>
-                    <a href="nota-fiscal.html">NOTA FISCAL</a>
-                </li>
-                <li>
-                    <a href="sjbprev.html">SJBPREV</a>
-                </li>
-                <li>
-                    <a href="ouvidoria.html">OUVIDORIA</a>
-                </li>
-                <li>
-                    <a href="calendari-pagamento.html">CALENDARIO DE PAGAMENTO</a>
-                </li>
-                <li>
-                    <a href="faq-sjb.html">FAQ</a>
-                </li>
-            </ul>  
-        </div>
+    <body>
+        
+        <article>
 
-        <!-- Barra de Pesquisa -->
-        <div id="barra-pesquisa">
-            <div id="area-pesquisa">
-                <div id="pesquisa">
-                    <a href="#">
-                        <img src="imagens/pesquisa.png">
-                    </a>
-                </div>
-                <div id="logo-gov">
-                    <a href="#">
-                        <img src="imagens/logo-gov-branco.png">
-                    </a>
-                </div>
-                <div id="redes">
-                    <div>
-                        <a href="#">
-                            <img src="imagens/instagram.png">
+            <!--================ TOPO ================-->
+            <header id="topo">
+                <!--================ TOPO SERVIDOR ================-->
+                <nav id="topo-servidor">
+                    <ul>
+                        <li>
+                            <a href="#">Servidor</a>
+                        </li>
+                        <li>
+                            <a href="#">Contribuinte</a>
+                        </li>
+                        <li>
+                            <a href="#">Privado</a>
+                        </li>
+                        <li>
+                            <a href="#">Nota Fiscal Eletrônica</a>
+                        </li>
+                        <li>
+                            <a href="#">SJBPREV</a>
+                        </li>
+                        <li>
+                            <a href="#">Calendário de Pagamento</a>
+                        </li>
+                        <li>
+                            <a href="#">FAQ</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <!--================ BARRA SUPERIOR ================-->
+                <section id="barra-pesquisa">
+                    <div class="pesquisa">
+                        <a class="botao-topo botao-pesquisa" href="">
+                            <img src="/imagens/pesquisa.png" alt="pesquisa">
                         </a>
-                        <a href="#">
-                            <img src="imagens/facebook.png">
+                        <a class="botao-topo botao-brasao" href="">
+                            <img src="/imagens/logo-gov-branco.png" alt="brasão municipal">
                         </a>
-                        <a href="#">
-                            <img src="imagens/youtube.png">
-                        </a>
+                        <div class="botao-topo botao-redes">
+                            <a href="">
+                                <img src="/imagens/instagram.png" alt="instagram">
+                            </a>
+                            <a href="">
+                                <img src="/imagens/facebook.png" alt="facebook">
+                            </a>
+                            <a href="">
+                                <img src="/imagens/youtube.png" alt="youtube">
+                            </a>
+                        </div>
                     </div>
+                </section>
+
+                <!--================ BANNER TOPO ================-->
+                <section id="banner-topo">
+                    <h1>Prefeitura municipal de São João da Barra</h1>
+                    <img src="/imagens/logo-gov-branco.png" alt="Brasão Prefeitura SJB" id="img-banner" width="250">
+                </section>
+
+            </header>
+
+            <!--================ ACESSO RAPIDO ================-->
+            <div id="acesso-rapido">
+                <h2>Acesso Rápido</h2>
+                <hr>
+                <div id="area-acesso">
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/cidadao.png" alt="cidadão" width="50" height="50">
+                        <p>cidadão</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/transparencia.png" alt="cidadão" width="50" height="50">
+                        <p>transparência</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/transportecoletivo.png" alt="cidadão" width="50" height="50">
+                        <p>transporte</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/escolasmunicipais.png" alt="cidadão" width="50" height="50">
+                        <p>escolas<br>municipais</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/ouvidoria.png" alt="cidadão" width="50" height="50">
+                        <p>ouvidoria</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/turismo.png" alt="cidadão" width="50" height="50">
+                        <p>turismo</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/pontosdetaxi.png" alt="cidadão" width="50" height="50">
+                        <p>ponto de taxi</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/noticias.png" alt="cidadão" width="50" height="50">
+                        <p>notícias</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/orgaosmunicipais.png" alt="cidadão" width="50" height="50">
+                        <p>secretarias</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/podcast.png" alt="cidadão" width="50" height="50">
+                        <p>podcast</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/unidadesdesaude.png" alt="cidadão" width="50" height="50">
+                        <p>unidades<br>de saúde</p>
+                    </a>
+                    <a href="" class="botao-acesso">
+                        <img src="/imagens/ícones/linksuteis.png" alt="cidadão" width="50" height="50">
+                        <p>links úteis</p>
+                    </a>
                 </div>
             </div>
-        </div>
-        <!--Banner Principal-->
-        <div id="banner-principal">
-            <img src="imagens/logo-gov-branco.png">
-        </div>
-        <!--Informações Principais-->
-        <div id="container">
 
-        </div>
+            <!--================ AREA PRINCIPAL ================-->
+            <section id="area-principal">
+                
+            </section>
+
+        </article>        
     
     </body>
 </html>
