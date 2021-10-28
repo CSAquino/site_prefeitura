@@ -51,7 +51,7 @@ a {
     border-bottom: #fff;
 }
 
-/*================ BARRA SUPERIOR ================*/
+/*================ BARRA TOPO ================*/
 #barra-pesquisa {
     width: 100%;
     height: 50px;
@@ -69,6 +69,8 @@ a {
 .botao-pesquisa img {
     width: 25px;
     margin: 5px;
+    margin-left: 50px;
+    padding-top: 8px;
 }
  
 .botao-brasao img {
