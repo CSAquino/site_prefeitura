@@ -1,0 +1,30 @@
+/*================ TOPO SERVIDOR ================*/
+#topo-servidor {
+    width: auto;
+    height: 35px;
+    background: #EB3235;
+}
+
+#topo-servidor ul {
+    display: block;
+    text-align: center;
+}
+
+#topo-servidor ul li {
+    display: inline-block;
+    margin-top: 8px;
+}
+
+#topo-servidor ul li a {
+    font-size: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+#topo-servidor ul li a:hover {
+    text-decoration: underline;
+    background-color: #b61f22;
+    color: #fff;
+    border-bottom: #fff;
+}
