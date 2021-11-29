@@ -1,7 +1,5 @@
 /*================ BARRA TOPO ================*/
-#barra-pesquisa {
-    width: 100%;
-    height: 50px;
+.barra-pesquisa {
     background-color: #013471;
 }
 
@@ -9,8 +7,8 @@
     width: 1000px;
     margin: auto;
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
+    align-items: center;
 }
 
 .botao-pesquisa img {
@@ -30,3 +28,4 @@
     padding: 5px;
     margin: 5px;
 }
+

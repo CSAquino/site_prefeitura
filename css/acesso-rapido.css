@@ -4,7 +4,7 @@
     background: #fff;
     display: block;
     margin: auto;
-    margin-top: -230px;
+    margin-top: -140px;
     padding: 35px 35px 35px 35px;
     border-radius: 10px;
     position: relative;
@@ -12,13 +12,24 @@
     box-shadow: 0 0 5px 2px rgb(65 64 66 / 30%);
 }
 
-#area-acesso {
+#acesso-rapido h2 {
+    font-size: 2.5em;
+    text-align: center;
+    margin-top: -10px;
+}
+
+#acesso-rapido p {
+    text-align: center;
+    margin-top: -15px;
+}
+
+.area-acesso {
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
 }
 
-#area-acesso a {
+.area-acesso a {
     font-weight: bold;
     text-decoration: none;
     text-transform: uppercase;
@@ -27,7 +38,7 @@
     border-bottom: 0.5px solid #414042;
 }
 
-#area-acesso a:hover {
+.area-acesso a:hover {
     background-color: rgba(129, 129, 129, 0.6);
     border-radius: 10px;
 }
