@@ -1,1 +1,9 @@
 /*================ AREA PRINCIPAL ================*/
+.area-principal {
+    width: 1000px;
+    display: block;
+}
+
+.area-principal h2 {
+    text-align: center;
+}
